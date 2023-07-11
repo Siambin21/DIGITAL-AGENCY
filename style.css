@@ -51,4 +51,73 @@ justify-content: center;}
 }
 .btn:hover{color: yellowgreen;} 
 p{color: white;}
- 
+main{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+ 
+}
+.main-header{
+    color: antiquewhite;
+}
+.icon{
+    width: 70px;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+.box{
+    width: 180px;
+    height: 180px;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border: 5px solid black;
+    box-shadow: 4px;}
+    .main-description{
+        width: 50%;
+       
+    }
+    
+   .first-box, .second-box{
+    display: flex;
+   
+   }
+   .profile-button{
+    padding: 12px 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    margin-left: 15px;
+   }
+   .profile-button:hover{
+    color: aquamarine;
+
+   }
+   ol{
+    color: white;
+    padding: 10px;
+   }
+   li{
+    padding: 5px;
+   }
+.author{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 25px;
+    border-right: 5px solid red;
+    padding-right: 20px;
+}
+.author-container{
+    display: flex;
+ align-items: center;
+}
